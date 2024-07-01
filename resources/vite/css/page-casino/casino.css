@@ -1,0 +1,59 @@
+.box-category ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-bottom: 10px;
+    border-right: 1px solid #fff;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+.box-category ul li:last-child {
+    border-right: none
+}
+
+.box-category ul {
+    padding: 12px 0px;
+    margin: 0;
+    background: #555;
+    margin-bottom: 20px;
+}
+
+.box-category ul li a {
+    font-weight: bold;
+}
+
+.box-category ul li a:hover {
+    color: #f8a31f;
+}
+
+.flex {
+    display: flex;
+}
+
+.time-group-search {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0
+}
+
+.time-group-search li {
+    margin-right: 10px;
+}
+
+.group-search-casino {
+    align-items: center;
+    margin-bottom: 20px
+}
+
+.group-search-casino input {
+    margin-right: 10px;
+}
+
+.fileupload .fileupload-preview img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    object-fit: contain;
+    left: 0;
+}

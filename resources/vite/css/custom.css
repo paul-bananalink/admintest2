@@ -1,0 +1,487 @@
+.table-bordered {
+  border: 1px solid #000;
+}
+
+.table-bordered > tbody > tr > td,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > td,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > thead > tr > th {
+  border: 1px solid #000;
+}
+
+.table_flex {
+  display: flex;
+}
+
+.table_time_flex {
+  display: flex;
+  align-items: center;
+}
+
+.cst_h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.cst_breadcrumb {
+  border-style: solid;
+}
+
+.cst_navbar_text {
+  color: #707478;
+  font-size: 12px;
+  padding-bottom: 5px;
+  padding-left: 6px;
+}
+
+.cst_divide {
+  padding: 4px;
+}
+
+.cst_panel-heading {
+  padding: 1px 6px;
+}
+
+.background-brown {
+  background-color: #654002;
+  color: white;
+}
+
+.background-gray {
+  background-color: #636363;
+  color: white;
+}
+
+.background-red {
+  background-color: #e50c0c !important;
+  color: white;
+}
+
+.cst-table-darkbrown th {
+  background-color: #654002;
+  color: white;
+}
+
+.cst-table-darkbrown td {
+  background-color: #636363;
+  color: white;
+}
+
+.background-black {
+  color: white;
+}
+
+.cst_panel-title {
+  text-align: center;
+  font-size: 13px;
+}
+
+.cst-font-20 {
+  font-size: 20px;
+}
+
+.cst-min-hight105 {
+  min-height: 105px;
+}
+
+.navbar-fixed-c {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+#main-container {
+  margin-top: 107px;
+  height: auto;
+}
+
+.m-t {
+  margin-top: 20px;
+}
+
+.p-t {
+  padding-top: 20px;
+}
+
+.m-5 {
+  margin: 5px;
+}
+
+.mr-12 {
+  margin-right: 12px !important;
+}
+
+.ml-12 {
+  margin-left: 12px !important;
+}
+
+.mt-12 {
+  margin-top: 12px !important;
+}
+
+.mb-12 {
+  margin-bottom: 12px !important;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.mr-4 {
+  margin-right: 4px !important;
+}
+
+.ml-4 {
+  margin-left: 4px !important;
+}
+
+.mt-4 {
+  margin-top: 4px !important;
+}
+
+.mb-4 {
+  margin-bottom: 4px !important;
+}
+
+.mb-0 {
+  margin: 0;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pt-5 {
+  padding-top: 5px;
+}
+
+.pb-5 {
+  padding-bottom: 5px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex-space-between {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flicker-box {
+  background-color: red;
+  animation: colorChange infinite;
+}
+
+.text-light {
+  color: white;
+}
+
+.text-dark {
+  color: black;
+}
+
+.tooltip-inner ul {
+  padding: 10px 10px 10px 5px;
+  list-style: none;
+  text-align: left;
+  margin: 0;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: black;
+  }
+
+  20% {
+    background-color: red;
+  }
+
+  40% {
+    background-color: black;
+  }
+
+  60% {
+    background-color: red;
+  }
+
+  80% {
+    background-color: black;
+  }
+
+  100% {
+    background-color: red;
+  }
+}
+
+.actived-b-href {
+  background: #b19b00;
+  color: #fff !important;
+  opacity: 1;
+}
+
+a.disabled {
+  cursor: not-allowed !important;
+  color: #23527c !important;
+}
+
+.active-btn {
+  background: #ffffff !important;
+  color: #000 !important;
+  opacity: 1 !important;
+}
+
+.modal-lg {
+  width: 80%;
+}
+
+.flex-paginate {
+  display: flex;
+  justify-content: center;
+}
+
+select#per-page {
+  padding: 4px 8px 4px 25px;
+}
+
+.dashboard-panel {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.dashboard-panel .panel-primary {
+  background-color: black;
+  flex-grow: 1;
+  background-color: black;
+}
+
+.content-middle {
+  text-align: center;
+  vertical-align: middle !important;
+}
+
+.content-label {
+  background-color: #654002 !important;
+}
+
+.content-middle .form-group {
+  margin-bottom: 0;
+}
+
+.content-middle .switch {
+  margin-bottom: 0;
+}
+
+.breadcrumb-partner ul {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.breadcrumb-partner ul i {
+  margin: 0;
+}
+
+#breadcrumbs .right-button a:hover {
+  color: #fff;
+}
+
+#breadcrumbs .right-button a {
+  min-width: 100px;
+}
+
+.btn-config {
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-config:hover {
+  color: #5ab4da;
+}
+
+.table td {
+  vertical-align: middle !important;
+}
+
+button.is-checked {
+  background-color: #f17ca9 !important;
+  border-color: #ec5a92 !important;
+  color: #fff !important;
+}
+
+.d-flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.d-flex-wrap input {
+  width: calc(10% - 10px);
+  margin: 5px;
+}
+
+.w-50-p {
+  width: 50%;
+}
+
+.w-45-p {
+  width: 45%;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.table-4-col td {
+  width: 25%;
+}
+
+#modalMemberConfig .content-middle {
+  max-width: 300px;
+}
+
+.mw-50 {
+  min-width: 50px;
+}
+
+.group-search .flex {
+  display: flex;
+}
+
+.group-search {
+  margin: 20px 0px;
+}
+
+.group-search .mr-2 {
+  margin-right: 8px;
+}
+
+.flex-items-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gap-20-rem {
+  gap: 20rem;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.max-w-50per {
+  max-width: 50%;
+}
+
+.box .box-content {
+  padding: 10px 0;
+}
+
+.cst-font-30 {
+  font-size: 30px;
+}
+
+.leading-65 {
+  line-height: 65px;
+}
+
+.leading-24 {
+  line-height: 24px;
+}
+
+.leading-80 {
+  line-height: 80px;
+}
+
+.h-65 {
+  height: 65px;
+}
+
+.cst-font-18 {
+  font-size: 18px !important;
+}
+
+a.blue:hover {
+  color: #368ee0;
+}
+
+a.red:hover {
+  color: #e51400;
+}
+
+.color-gray {
+  color: #a0a0a0;
+}
+
+.left-calendar {
+  float: left;
+  line-height: 23px;
+}
+
+.form-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #e6e5e4;
+  font-size: 15px;
+}
+
+.editor-table .thead td,
+.editor-table input {
+  padding: 10px 0 !important;
+  height: auto;
+}
+
+.tox .tox-edit-area__iframe {
+  background-color: #161f29 !important;
+}

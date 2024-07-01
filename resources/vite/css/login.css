@@ -1,0 +1,104 @@
+body {
+    font-size: 12px;
+    background-image: url(../../../public/bg_body.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.style_bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.login-header .brand{
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+}
+.login-header .brand strong {
+    font-size: 36px;
+    color: #d4d4d4;
+    font-family: arial;
+}
+
+.login-content {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.input-lg{
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: #fff;
+}
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #ffffff; /*chữ*/
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  caret-color: #fff;
+  transition: background-color 5000s ease-in-out 0s;
+  border-color: #66afe9;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+/* Remove box-shadow when not focused */
+:not(:focus-within) input:-webkit-autofill,
+:not(:focus-within) textarea:-webkit-autofill,
+:not(:focus-within) select:-webkit-autofill {
+  box-shadow: none;
+}
+
+.btn.btn-success {
+    border-radius: 3px !important;
+    color: #fff;
+    background: #00acac;
+    border-color: #00acac;
+}
+.btn.btn-success.active, .btn.btn-success:active, .btn.btn-success:focus, .btn.btn-success:hover, .open .dropdown-toggle.btn-success {
+    background: #008a8a!important;
+    border-color: #008a8a!important;
+}
+i.fa.fa-cog.m-r-5.text-success {
+    padding: 8px;
+    color: #00acac;
+}
+
+label.checkbox {
+    display: flex;
+    align-items: flex-end;
+    font-size: 14px;
+    font-family: monospace;
+    color: white;
+}
+.controls {
+    padding-left: 20px;
+}
+.controls input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+}
+
+.controls span{
+    padding-left: 8px;
+}
+
+.btn.btn-danger {
+    font-size: large;
+    margin: 16px;
+    border-radius: 5px !important;
+    background-color: #fb3838;
+}

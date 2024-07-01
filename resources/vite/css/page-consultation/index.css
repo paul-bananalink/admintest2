@@ -1,0 +1,41 @@
+.group-replied {
+    background-color: #eee;
+    margin-top: 5px;
+    padding: 8px;
+    color: #000;
+    border: 2px solid rgb(46 46 46);
+}
+
+.group-search .flex {
+    display: flex;
+}
+
+.group-search {
+    margin: 20px 0px;
+    min-width: 800px;
+}
+
+.group-search .mr-2 {
+    margin-right: 8px;
+}
+
+.table-title {
+    width: max-content;
+    display: flex !important;
+    justify-content: space-evenly;
+}
+
+.table-title-icon {
+    display: flex;
+    margin: 0 10px;
+}
+
+.box-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-search {
+    min-width: 100px;
+}

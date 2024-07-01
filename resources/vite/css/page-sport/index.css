@@ -1,0 +1,16 @@
+.group-search {
+    margin-top: 0;
+}
+
+.flex-items-center {
+    align-items: stretch;
+}
+
+.w-80 {
+    width: 80px;
+}
+
+input[type="text"].bg-white {
+    background: #fff !important;
+    color: #000 !important;
+}

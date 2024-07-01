@@ -1,0 +1,30 @@
+canvas{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+#member_batting{
+    margin-left: 40px;
+}
+
+#breadcrumbs a:hover {
+    color: #fff;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.title-chart {
+    background: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 34, 68);
+    padding: 10px 20px;
+}
+
+.title-chart h5 {
+    padding: 5px 10px;
+}

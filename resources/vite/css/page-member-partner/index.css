@@ -1,0 +1,147 @@
+#create-partner .flex,
+#update-partner .flex {
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+#create-partner .content-middle,
+#update-partner .content-middle {
+  padding: 10px;
+}
+
+.show-input-mID .flex {
+  margin-top: 10px;
+}
+
+.show-input-mID .flex button {
+  padding: 8px;
+  margin-left: 10px;
+}
+
+#create-partner .modal-footer,
+#update-partner .modal-footer {
+  text-align: center;
+}
+
+.group-search .flex {
+  display: flex;
+}
+
+.group-search {
+  margin: 20px 0px;
+  min-width: 800px;
+}
+
+.group-search .mr-2 {
+  margin-right: 8px;
+}
+
+.table-title {
+  width: max-content;
+  display: flex !important;
+  justify-content: space-evenly;
+}
+
+.table-title-icon {
+  display: flex;
+  margin: 0 10px;
+}
+
+.box-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-search {
+  min-width: 100px;
+}
+
+.tree ul {
+  margin: 0 0 0 100px;
+  padding: 0;
+  list-style: none;
+  color: #000;
+  position: relative;
+}
+
+.tree:before,
+.tree ul:before {
+  content: "";
+  display: block;
+  width: 0px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-left: 1px solid #fff;
+  background: white;
+}
+
+.tree li {
+  font-weight: bold;
+  line-height: 3em;
+  margin: 0;
+  padding: 1.5em 0 0 2em;
+  position: relative;
+  list-style-type: none;
+}
+
+.tree li:before {
+  border-top: 1px solid #fff;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  margin-top: 1em;
+  position: absolute;
+  top: 30px;
+  width: 2em;
+}
+
+.tree li:last-child:before {
+  background: #000;
+  bottom: 0;
+  height: auto;
+  top: 30px;
+}
+
+.tree > li:before {
+  border-top: none !important;
+}
+
+.tree li div {
+  border: 1px solid #afafaf;
+  margin: 0;
+  min-width: 15em;
+  padding: 0.25em 2em;
+  background: white;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+}
+
+ul.tree {
+  margin-left: 0px;
+}
+
+ul.tree:before {
+  border-left: none;
+}
+
+.content-label {
+  background-color: #2f2020 !important;
+}
+
+button.is-checked {
+  background-color: #51a351 !important;
+  border-color: #51a351 !important;
+  color: #fff !important;
+}
+
+.btn.btn-circle.btn-bordered.btn-to-pink.btn-fill:hover {
+  background-color: #51a351 !important;
+  border-color: #51a351 !important;
+}

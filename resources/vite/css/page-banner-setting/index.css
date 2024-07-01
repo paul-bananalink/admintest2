@@ -1,0 +1,43 @@
+.box-popup .content {
+    font-size: 13px;
+}
+
+.box-popup .flex-center {
+    justify-content: left;
+}
+
+.box-popup {
+    background-color: #242a30 !important;
+    border: 1px solid #000;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.flex-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.w-1-2 {
+    width: 50%;
+}
+
+.w-1-4 {
+    width: 25%;
+}
+
+.w-3-4 {
+    width: 75%;
+}
+
+@media (min-width: 992px) {
+    .fileupload .btn {
+        position: relative;
+    }
+
+    .fileupload .img-thumbnail {
+        position: absolute;
+        right: -200px;
+    }
+}

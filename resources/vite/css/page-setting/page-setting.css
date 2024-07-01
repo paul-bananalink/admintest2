@@ -1,0 +1,10 @@
+.title-page{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filter-click{
+  float: left; 
+  margin-left:6px; 
+  font-size:12px;
+}

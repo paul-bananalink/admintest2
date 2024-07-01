@@ -1,0 +1,22 @@
+.top-menu,
+.top-menu-tmember {
+  top: 55px !important;
+}
+
+#main-container {
+  margin-top: 102px !important;
+}
+
+.navbar {
+  min-height: 55px;
+}
+
+.navbar a:hover,
+.navbar a:focus,
+.navbar a:active {
+  color: #fff;
+}
+
+.bg-gray {
+  background-color: #2d353c !important;
+}
